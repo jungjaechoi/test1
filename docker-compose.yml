@@ -7,3 +7,5 @@ services:
     build:
       context: .
     container_name: app2
+    volumes:
+      - home/ec2-user:/home
