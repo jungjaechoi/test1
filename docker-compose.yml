@@ -3,7 +3,7 @@ services:
   app:
     image: test:latest
     ports:
-      - "4000:4000"
+      - "8080:8080"
     build:
       context: .
     container_name: app2
